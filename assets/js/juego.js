@@ -1,4 +1,8 @@
-/**
+//patron modulo
+(() => {
+  'use strict';
+
+  /**
  * 2C = Two of Clubs
  * 2D = Two of Diamons
  * 2H = Two of Hearts
@@ -148,3 +152,6 @@ btnNuevo.addEventListener("click", () => {
   btnPedir.disabled = false;
   btnDetener.disabled = false;
 });
+
+})();
+
